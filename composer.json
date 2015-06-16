@@ -57,7 +57,8 @@
         "ext-xsl": "*",
         "sjparkinson/static-review": "~4.1",
         "fabpot/php-cs-fixer": "~1.2",
-        "lusitanian/oauth": "~0.3"
+        "lusitanian/oauth": "~0.3",
+        "magento/sample-data": "0.74.0-beta13"
     },
     "replace": {
         "magento/module-admin-notification": "self.version",
@@ -212,5 +213,11 @@
         }
     },
     "minimum-stability": "alpha",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "http://packages.magento.com"
+        }
+    }
 }

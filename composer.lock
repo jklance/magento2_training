@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "55186e4b1650ca5f2ad865799800f636",
+    "hash": "0a502ceb3e4983ab572a71e8a2e0ed38",
     "packages": [
         {
             "name": "composer/composer",
@@ -2338,6 +2338,57 @@
                 "security"
             ],
             "time": "2014-09-05 15:19:58"
+        },
+        {
+            "name": "magento/module-sample-data",
+            "version": "0.74.0-beta13",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.magento.com/_packages/magento_module-sample-data-0.74.0-beta13.zip",
+                "reference": null,
+                "shasum": "ee5cacf56d233f8935a7d273090b7906d1b227c6"
+            },
+            "require": {
+                "magento/framework": "~0.74.0-beta13",
+                "magento/magento-composer-installer": "*"
+            },
+            "type": "magento2-module",
+            "extra": {
+                "map": [
+                    [
+                        "*",
+                        "Magento/SampleData"
+                    ]
+                ]
+            },
+            "description": "Sample Data fixtures"
+        },
+        {
+            "name": "magento/sample-data",
+            "version": "0.74.0-beta13",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.magento.com/_packages/magento_sample-data-0.74.0-beta13.zip",
+                "reference": null,
+                "shasum": "189845ae766bd13711a17bb1d94f16e3d3894697"
+            },
+            "require": {
+                "magento/module-sample-data": "self.version",
+                "magento/sample-data-media": "~0.42.0-beta2"
+            },
+            "type": "metapackage"
+        },
+        {
+            "name": "magento/sample-data-media",
+            "version": "0.42.0-beta2",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.magento.com/_packages/magento_sample-data-media-0.42.0-beta2.zip",
+                "reference": null,
+                "shasum": "52784de9a60a106579e3eb4924c16e1a870ca700"
+            },
+            "type": "library",
+            "description": "Sample Data media files"
         },
         {
             "name": "pdepend/pdepend",
