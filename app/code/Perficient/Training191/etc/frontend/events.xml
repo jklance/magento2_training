@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="events.xsd">
+    <event name="controller_action_predispatch">
+        <observer name="perficient_training191" instance="Perficient\Training191\Model\Observer" method="logRequestObject" shared="false" />
+    </event>
+</config>
