@@ -4,4 +4,7 @@
     <head>
         <title>Training381 Template</title>
     </head>
+    <body>
+        <remove name="training.example.first" />
+    </body>
 </page>
