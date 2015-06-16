@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="events.xsd">
+    <event name="controller_front_send_response_before">
+        <observer name="perficient_training221" instance="Perficient\Training221\Model\Observer" method="logResponseObject" shared="false" />
+    </event>
+</config>
