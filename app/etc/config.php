@@ -106,5 +106,6 @@ return array (
     'Perficient_Training351' => 1,
     'Perficient_Training352' => 1,
     'Perficient_Training353' => 1,
+    'Perficient_Training362' => 1,
   ),
 );
