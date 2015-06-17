@@ -109,8 +109,8 @@ return array (
     'Perficient_Training362' => 0,
     'Perficient_Training363' => 0,
     'Perficient_Training381' => 0,
-    'Perficient_Training421' => 1,
-    'Perficient_Training441' => 1,
-    'Perficient_Training472' => 1,
+    'Perficient_Training421' => 0,
+    'Perficient_Training441' => 0,
+    'Perficient_Training472' => 0,
   ),
 );
