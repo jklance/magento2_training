@@ -6,7 +6,6 @@ class UpgradeData implements \Magento\Framework\Setup\UpgradeDataInterface {
     public function upgrade(\Magento\Framework\Setup\ModuleDataSetupInterface $setup,
                             \Magento\Framework\Setup\ModuleContextInterface $context)
     {
-        echo "test2";
         $setup->startSetup();
 
         if (version_compare($context->getVersion(), '0.0.3') < 0) {
@@ -18,7 +17,6 @@ class UpgradeData implements \Magento\Framework\Setup\UpgradeDataInterface {
 
     private function upgrade003(\Magento\Framework\Setup\ModuleDataSetupInterface $setup)
     {
-        echo "test";
         $setup->getConnection()->beginTransaction()->insert(
             'perficient_training441_entity', array(
             'trainingId' => 2,
