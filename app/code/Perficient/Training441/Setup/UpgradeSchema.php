@@ -8,6 +8,17 @@ class UpgradeSchema implements \Magento\Framework\Setup\UpgradeSchemaInterface {
     {
         $setup->startSetup();
 
+        if (version_compare($context->getVersion(), '0.0.2') < 0) {
+            $this->upgrade002($setup);
+        }
+
+
+
+        $setup->endSetup();
+    }
+
+    private function upgrade002(\Magento\Framework\Setup\SchemaSetupInterface $setup)
+    {
         $newTable = array(
             'type'      => \Magento\Framework\DB\Ddl\Table::TYPE_DATETIME,
             'length'    => null,
@@ -16,8 +27,5 @@ class UpgradeSchema implements \Magento\Framework\Setup\UpgradeSchemaInterface {
         );
 
         $setup->getConnection()->addColumn('perficient_training441_entity', 'lastUpdated', $newTable);
-
-
-        $setup->endSetup();
     }
 }
