@@ -15,12 +15,13 @@ class InstallData implements \Magento\Framework\Setup\InstallDataInterface {
     {
         $eavSetup = $this->_eavSetupFactory->create(array('setup' => $setup));
 
+
         $eavSetup->addAttribute(
             \Magento\Catalog\Model\Product::ENTITY,
-            'short_review',
+            'jer_approved',
             [
                 'type' => 'varchar',
-                'label' => 'One Word Review',
+                'label' => 'Jer Approved?',
                 'global' => \Magento\Catalog\Model\Resource\Eav\Attribute::SCOPE_GLOBAL,
                 'visible' => true,
                 'required' => false,
@@ -32,6 +33,15 @@ class InstallData implements \Magento\Framework\Setup\InstallDataInterface {
                 'unique' => false,
                 'apply_to' => '',
                 'used_in_product_listing' => true,
+
+                'backend' => '\Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend',
+                'input' => 'multiselect',
+                'option' => array (
+                    'value' => array(
+                        'yes' => array('Yes'),
+                        'no' => array('No'),
+                    )
+                ),
             ]
         );
 
