@@ -14,9 +14,5 @@ class Index extends \Magento\Framework\App\Action\Action {
             echo "</li>";
         }
         echo "</ol>";
-
-
-
-
     }
 }

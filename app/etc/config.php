@@ -114,5 +114,6 @@ return array (
     'Perficient_Training472' => 0,
     'Perficient_Training473' => 0,
     'Perficient_Training541' => 1,
+    'Perficient_Training542' => 1,
   ),
 );
