@@ -1,0 +1,1 @@
+1.8.1) For \Magento\Catalog\Model\Product getPriceMethod(), create a plugin and preference.

@@ -1,0 +1,1 @@
+2.5.3) Create an adminhtml controller that allows access only if the GET parameter “secret” is set.

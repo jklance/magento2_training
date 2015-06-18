@@ -1,0 +1,1 @@
+4.7.3) Create a multi-select product attribute from an upgrade data method

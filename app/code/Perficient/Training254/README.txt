@@ -1,0 +1,1 @@
+2.5.4) Make the “Hello World” controller you just created redirect to a specific category page.

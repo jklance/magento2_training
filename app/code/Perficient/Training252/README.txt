@@ -1,0 +1,1 @@
+2.5.2) Customize the catalog product view controller using plugins and preferences.

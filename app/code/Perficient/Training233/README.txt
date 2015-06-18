@@ -1,0 +1,1 @@
+2.3.3) Modify Magento so a “not found” page will forward to the homepage.

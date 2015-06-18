@@ -1,0 +1,1 @@
+2.5.1) Create a frontend controller which renders “HELLO WORLD”.

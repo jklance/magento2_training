@@ -1,0 +1,1 @@
+4.7.2) Create a text input attribute from an install data method

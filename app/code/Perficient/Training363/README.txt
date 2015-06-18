@@ -1,0 +1,1 @@
+3.6.3) Customize the Catalog\Block\Product\View\Description block, and set a custom template to it.

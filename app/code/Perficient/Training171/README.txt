@@ -1,0 +1,1 @@
+1.7.1) In the empty module you’ve created, create new xml/xsd files.
